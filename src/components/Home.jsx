@@ -1,13 +1,13 @@
 import React from 'react';
 import pic from "../../public/photo.avif";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
 import { ReactTyped } from "react-typed";
 function Home() {
   return (
@@ -36,13 +36,13 @@ function Home() {
             <h1 className='font-bold'>Available on</h1>
             <ul className='flex space-x-5'>
             <li>
-                <a href="https://www.linkedin.com/feed/">
+                <a href="https://www.linkedin.com/in/khushi-mishra-849ab1259/">
                 <FaLinkedin className='text-2xl cursor-pointer' />
                 </a>
             </li>
             <li>
-                <a href="https://web.telegram.org/a/">
-                <FaTelegram className='text-2xl cursor-pointer' />
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl">
+                <IoMdMail  className='text-2xl cursor-pointer' />
                 </a>
             </li>
             <li>
@@ -51,7 +51,7 @@ function Home() {
                 </a>
             </li>
             <li>
-                <a href="https://github.com/">
+                <a href="https://github.com/khushi667">
                 <IoLogoGithub className='text-2xl cursor-pointer' />
                 </a>
             </li>
